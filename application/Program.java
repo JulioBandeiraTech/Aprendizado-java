@@ -13,9 +13,9 @@ public class Program {
         System.out.println("Digite a altura e lagura do retangulo: ");
         retangulo.heigth= sc.nextDouble();
         retangulo.width= sc.nextDouble();
-        System.out.println("AREA: "+retangulo.area());
-        System.out.println("PERIMETRO: "+retangulo.perimetro());
-        System.out.println("DIAGONAL: "+retangulo.diagonal());
+        System.out.println("AREA TRIANGULO: "+retangulo.area());
+        System.out.println("PERIMETRO TRIANGULO: "+retangulo.perimetro());
+        System.out.println("DIAGONAL TRIANGULO: "+retangulo.diagonal());
         sc.close();
     }
 }
